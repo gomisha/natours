@@ -1,0 +1,22 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    /* 
+        default font-size=16px
+        want root font-size to be 10px so we can use that as 1 rem (1 rem == 10px)
+        10/16=0.625, so 62.5% of 16px is 10px
+        allows proper zooming of page
+        
+    */
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
