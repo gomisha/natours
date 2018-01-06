@@ -1,6 +1,6 @@
 .row {
     max-width: $grid-width;
-    background-color: black;
+    //background-color: black; //just to make it clearer when testing
     margin: 0 auto;
 
     //don't want bottom margin on last row
@@ -13,9 +13,9 @@
     //select all rows that have class attribute starting with "col-"
     //they will all have same formatting - only the widths will be different
     [class^="col-"] {
-        background-color: orangered;
+        //background-color: orangered; //just to make it clearer when testing
         float: left;
-        color: white;
+        //color: white;  //just to make it clear when testing
 
         //no right margin for last column
         &:not(:last-child) {
